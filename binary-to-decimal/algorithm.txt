@@ -1,0 +1,13 @@
+
+Convert Binary to Decimal
+----------------------------
+
+Given a binary number, get the decimal equivalent.
+e.g., "1010": 
+    - for each digit
+    - 2^3 2^2 2^1 2^0 
+    - add up the places that have ones and ignore the places with zeros
+
+execution:
+1. convert the string into array in reverse order (so, [0,1,0,1])
+2. loop through array, if digit is 1, add the value 2^n
