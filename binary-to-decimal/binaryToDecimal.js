@@ -1,13 +1,13 @@
 function convert(input) {
     if(typeof input !== 'string')
-        throw Error('Input must be a string')
+        throw new Error('input must be a string')
 
     let result = 0;
     let bits = [];
     
     for(let i of input){
         if(i !== '1' && i !== '0')
-            throw Error("Input must only include '1' or '0'");
+            throw new Error("input must only include '1' or '0'");
         bits.push(i);
     }
 
@@ -21,6 +21,5 @@ function convert(input) {
 
     return result;
 }
-
 
 module.exports.convert = convert;
