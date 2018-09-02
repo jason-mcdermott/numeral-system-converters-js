@@ -1,0 +1,17 @@
+
+Convert Decimal to Binary
+----------------------------
+
+Given a decimal number, get the binary equivalent:
+
+1. create a binary series ([1,2,4,8,16,32,64,128,256,512,...]
+2. create an empty array of the same size, with all 0's.
+3. take the decimal number and find the place in the binary
+   series where the value is closest to the binary number
+   without going over it.
+4. put a 1 in that space in the empty array
+5. subtract the binary value from the original number and repeat
+   process to find the the next closest binary value without
+   going over the decimal value
+6. put a 1 in that space in the empty array
+7. once there is no remainder, you have your binary number
