@@ -1,0 +1,12 @@
+
+Convert Decimal to Hexadecimal
+----------------------------
+
+Given a decimal number, get the hexadecimal equivalent:
+
+0. create a map of decimal to hexadecimal values.
+1. divide the input decimal number by 16.
+2. if the number doesn't divide equally by 16, round down the answer to the nearest whole number.
+3. save off the remainder (and all subsequent ones) in an array.
+4. repeat the same steps, dividing each answer by 16 until you reach zero.
+5. loop through all the remainders in reverse order (bottom to top) and get the hex value from the map.
