@@ -1,0 +1,10 @@
+
+Convert Binary to Hexadecimal
+----------------------------
+
+Given a binary number, get the hexadecimal equivalent:
+
+0. create a map of hexadecimal to binary values.
+1. break the binary number into 4 bit "nibbles"
+2. loop through the nibbles and get the hex value from the map 
+3. concatenate the values to produce the result
