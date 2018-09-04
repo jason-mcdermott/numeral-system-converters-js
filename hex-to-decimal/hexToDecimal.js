@@ -34,7 +34,7 @@ function convert(input)
 
     for (let i = 0; i < ints.length; i++)
     {
-        if (ints[i] != 0)
+        if (ints[i] !== 0)
         {
             result += ints[i] * Math.pow(base, i);
         }

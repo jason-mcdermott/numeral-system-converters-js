@@ -14,7 +14,8 @@ function convert(input) {
         }
 
         let compareTo = input;
-        bins.reverse().map(function(curr, idx){
+        
+        bins.reverse().map(function(curr){
             if(curr <= compareTo){
                 output.push(1);
                 compareTo = compareTo - curr;
@@ -24,7 +25,7 @@ function convert(input) {
         });
 
          // pad with zero's...
-         while(output.length % 4 != 0)
+         while(output.length % 4 !== 0)
          {
              output.splice(0, 0, 0);
          }
