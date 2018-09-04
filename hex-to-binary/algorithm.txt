@@ -1,0 +1,10 @@
+
+Convert Hexadecimal to Binary
+----------------------------
+
+Given a hexadecimal number, get the binary equivalent:
+
+0. create a map of hexadecimal to binary values.
+1. loop through each character of the hexadecimal number
+2. get the mapped value and concatenate all the mapped values together
+3. the final string is the result.
