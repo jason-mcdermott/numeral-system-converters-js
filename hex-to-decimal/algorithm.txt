@@ -1,0 +1,14 @@
+
+Convert Hexadecimal to Decimal
+----------------------------
+
+Given a hexadecimal number, get the decimal equivalent:
+
+0. create a map of hexadecimal to decimal values.
+1. loop through each of the characters of the hexadecimal number and get the mapped value
+   and collect those in a stack (or in the case of this JS implementation, an array whose 
+   order is then reversed).
+2. loop through the values of the reversed array and (assuming the decimal value is not zero)
+   "accumulate" the decimal value times 16^i where i is the index of the decimal value in the 
+   array.
+3. the final sum is the result.
