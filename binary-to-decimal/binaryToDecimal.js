@@ -13,7 +13,7 @@ function convert(input) {
 
     bits.reverse();
 
-    bits.map(function(x,y){
+    bits.map(function(x, y){
         if(Number.parseInt(x) !== 0){
             result += Math.pow(2, y);
         }
