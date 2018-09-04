@@ -23,7 +23,7 @@ function convert(input){
     let result = '';
     let nibbles = getChunks(input, 4);
 
-    for (var nibble of nibbles){
+    for (let nibble of nibbles){
         result += map.get(nibble);
     }
 
