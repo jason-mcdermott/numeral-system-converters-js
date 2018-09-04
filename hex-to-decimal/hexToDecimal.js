@@ -25,14 +25,14 @@ function convert(input)
     let ints = [];
     let result = 0;
 
-    for (var c of input)
+    for (let c of input)
     {
         ints.push(map.get(c));
     }
 
     ints.reverse();
 
-    for (var i = 0; i < ints.length; i++)
+    for (let i = 0; i < ints.length; i++)
     {
         if (ints[i] != 0)
         {
